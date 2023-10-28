@@ -8,13 +8,15 @@
     android:padding="16dp"
     android:gravity="center_vertical"
     tools:context=".LingkaranActivity">
+
     <EditText
         android:id="@+id/et_jari"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:hint="@string/jari_jari"
         android:inputType="numberDecimal"
-        android:layout_marginBottom="8dp"/>
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btn_hitung"

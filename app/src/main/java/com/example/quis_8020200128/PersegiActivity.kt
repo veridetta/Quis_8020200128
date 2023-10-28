@@ -15,7 +15,7 @@ class PersegiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_persegi)
-        title = "Luas Persegi"
+        title = "Persegi Activity"
         initView()
         initClick()
     }

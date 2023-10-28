@@ -8,20 +8,24 @@
     android:padding="16dp"
     android:gravity="center_vertical"
     tools:context=".SegitigaActivity">
+
     <EditText
         android:id="@+id/et_alas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:hint="@string/alas"
         android:inputType="numberDecimal"
-        android:layout_marginBottom="8dp"/>
+        android:minHeight="48dp" />
+
     <EditText
         android:id="@+id/et_tinggi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:hint="Tinggi"
         android:inputType="numberDecimal"
-        android:layout_marginBottom="8dp"/>
+        android:minHeight="48dp" />
     <Button
         android:id="@+id/btn_hitung"
         android:layout_width="match_parent"

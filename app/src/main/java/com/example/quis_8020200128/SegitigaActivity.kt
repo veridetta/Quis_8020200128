@@ -18,7 +18,7 @@ class SegitigaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_segitiga)
-        title = "Luas Segitiga"
+        title = "Segitiga Activity"
         initView()
         initClick()
     }
