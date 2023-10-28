@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    tools:context=".SegitigaActivity">
+    <EditText
+        android:id="@+id/et_alas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alas"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+</LinearLayout>

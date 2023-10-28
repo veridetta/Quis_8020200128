@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quis_8020200128</string>
+    <string name="perhitungan_luas">PERHITUNGAN LUAS</string>
+    <string name="persegi">Persegi</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="nama_krismia_maharani_helmi">Nama: Krismia Maharani Helmi</string>
+    <string name="nim_8020200128">NIM: 8020200128</string>
+    <string name="jari_jari">Jari-jari</string>
+    <string name="hitung">Hitung</string>
+    <string name="_0">0</string>
+    <string name="alas">Alas</string>
+</resources>
